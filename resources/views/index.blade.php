@@ -15,8 +15,8 @@
 
     <!-- Application Dependencies -->
     <script src="node_modules/angular/angular.js"></script>
-    <script src="node_modules/angular-ui-router/build/angular-ui-router.js"></script>
-    <script src="node_modules/satellizer/satellizer.js"></script>
+    <script src="node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="node_modules/satellizer/dist/satellizer.js"></script>
 
     <!-- Application Scripts -->
     <script src="scripts/app.js"></script>
