@@ -12,6 +12,8 @@
     function AuthController($auth, $state) {
 
         var vm = this;
+
+        vm.errorCredentials = false;
             
         vm.login = function() {
 
@@ -22,11 +24,22 @@
             
             // Use Satellizer's $auth service to login
             $auth.login(credentials).then(function(data) {
-
                 // If login is successful, redirect to the users state
                 $state.go('users', {});
-            });
+            })
+            .catch(function(response) {
+                vm.errorCredentials = true;
+                // Handle errors here, such as displaying a notification
+                // for invalid email and/or password.
+            });            
+        };
+
+        vm.closeError = function() {
+            vm.errorCredentials = false;
         }
+
+        
+
 
     }
 

@@ -15,15 +15,16 @@
             $urlRouterProvider.otherwise('/auth');
             
             $stateProvider
-                .state('auth', {
-                    url: '/auth',
-                    templateUrl: '../app/login/authview.html',
-                    controller: 'AuthController as auth'
-                })
-                .state('users', {
-                    url: '/users',
-                    templateUrl: '../app/dashboard/userview.html',
-                    controller: 'UserController as user'
-                });
+                // .state('auth', {
+                //     url: '/auth',
+                //     templateUrl: '../app/login/authview.html',
+                //     controller: 'AuthController as auth'
+                // })
+                // .state('users', {
+                //     url: '/users',
+                //     templateUrl: '../app/dashboard/userview.html',
+                //     controller: 'UserController as user'
+                // })
+                ;
         });
 })();
