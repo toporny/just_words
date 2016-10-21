@@ -1,6 +1,5 @@
-# just_words_api
-just_words_api
-
+# just_words
+just_words
 
 https://scotch.io/tutorials/token-based-authentication-for-angularjs-and-laravel-apps
 
