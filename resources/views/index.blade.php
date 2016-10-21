@@ -20,6 +20,6 @@
 
     <!-- Application Scripts -->
     <script src="scripts/app.js"></script>
-    <script src="scripts/authController.js"></script>
-    <script src="scripts/userController.js"></script>
+    <script src="app/dashboard/userController.js"></script>
+    <script src="app/login/authController.js"></script>
 </html>
