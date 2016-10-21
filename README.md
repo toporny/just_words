@@ -2,6 +2,8 @@
 just_words_api
 
 
-c:\Users\......\AppData\Roaming\Composer\vendor\bin\laravel new just_words
+https://scotch.io/tutorials/token-based-authentication-for-angularjs-and-laravel-apps
 
-composer update
+c:\Users\........\AppData\Roaming\Composer\vendor\bin\laravel new just_words
+
+php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\JWTAuthServiceProvider"
