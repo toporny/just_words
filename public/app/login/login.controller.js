@@ -1,4 +1,4 @@
-// public/scripts/authController.js
+// public/scripts/loginController.js
 
 (function() {
 
@@ -6,14 +6,12 @@
 
     angular
         .module('authApp')
-        .controller('AuthController', AuthController);
+        .controller('LoginController', LoginController);
 
 
-    function AuthController($auth, $state) {
+    function LoginController($auth, $state) {
 
         var vm = this;
-
-        vm.errorCredentials = false;
             
         vm.login = function() {
 
@@ -31,15 +29,8 @@
                 vm.errorCredentials = true;
                 // Handle errors here, such as displaying a notification
                 // for invalid email and/or password.
-            });            
-        };
-
-        vm.closeError = function() {
-            vm.errorCredentials = false;
+            });
         }
-
-        
-
 
     }
 

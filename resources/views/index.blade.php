@@ -24,8 +24,8 @@
     <script src="app/dashboard/user.controller.js"></script>
     <script src="app/dashboard/user.routes.js"></script>
 
-    <script src="app/login/auth.controller.js"></script>
-    <script src="app/login/auth.routes.js"></script>
+    <script src="app/login/login.controller.js"></script>
+    <script src="app/login/login.routes.js"></script>
 
     <script src="app/how-it-works/how-it-works.controller.js"></script>
     <script src="app/how-it-works/how-it-works.routes.js"></script>

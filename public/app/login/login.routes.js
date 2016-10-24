@@ -7,10 +7,10 @@
 
     function routes($stateProvider) {
         $stateProvider
-            .state('auth', {
-                url: '/auth',
-                templateUrl: '../app/login/auth.html',
-                controller: 'AuthController as auth'
+            .state('login', {
+                url: '/login',
+                templateUrl: '../app/login/login.html',
+                controller: 'LoginController as login'
             })
     }
 })();
