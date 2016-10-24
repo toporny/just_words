@@ -19,7 +19,27 @@
     <script src="node_modules/satellizer/dist/satellizer.js"></script>
 
     <!-- Application Scripts -->
-    <script src="scripts/app.js"></script>
-    <script src="app/dashboard/userController.js"></script>
-    <script src="app/login/authController.js"></script>
+    <script src="app/app.module.js"></script>
+
+    <script src="app/dashboard/user.controller.js"></script>
+    <script src="app/dashboard/user.routes.js"></script>
+
+    <script src="app/login/auth.controller.js"></script>
+    <script src="app/login/auth.routes.js"></script>
+
+    <script src="app/how-it-works/how-it-works.controller.js"></script>
+    <script src="app/how-it-works/how-it-works.routes.js"></script>
+
+    <script src="app/select-words/select-words.controller.js"></script>
+    <script src="app/select-words/select-words.routes.js"></script>
+
+    <script src="app/learn-yourself/learn-yourself.controller.js"></script>
+    <script src="app/learn-yourself/learn-yourself.routes.js"></script>
+
+    <script src="app/test-yourself/test-yourself.controller.js"></script>
+    <script src="app/test-yourself/test-yourself.routes.js"></script>
+
+    <script src="app/challenge-somebody/challenge-somebody.controller.js"></script>
+    <script src="app/challenge-somebody/challenge-somebody.routes.js"></script>
+
 </html>

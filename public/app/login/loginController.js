@@ -1,4 +1,4 @@
-// public/scripts/authController.js
+// public/scripts/loginController.js
 
 (function() {
 
