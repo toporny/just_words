@@ -42,4 +42,7 @@
     <script src="app/challenge-somebody/challenge-somebody.controller.js"></script>
     <script src="app/challenge-somebody/challenge-somebody.routes.js"></script>
 
+    <script src="app/start-flags/start-flags.controller.js"></script>
+    <script src="app/start-flags/start-flags.routes.js"></script>
+
 </html>

@@ -12,7 +12,7 @@
 
             // Redirect to the auth state if any other states
             // are requested other than users
-            $urlRouterProvider.otherwise('/login');
+            $urlRouterProvider.otherwise('/start-flags');
             
             $stateProvider
                 // .state('auth', {
